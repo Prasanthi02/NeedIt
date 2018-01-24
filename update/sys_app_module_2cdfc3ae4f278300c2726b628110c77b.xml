@@ -2,43 +2,45 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="NeedIt">77325f454f9bc700c2726b628110c7be</application>
+        <application/>
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
-        <hint/>
+        <filter table="x_174719_needit_needit">u_requested_for=Me^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="=" or="false" value="Me"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of my NeedIt Requests</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>NeedIts</mobile_title>
+        <mobile_title>My NeedIt Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_174719_needit_needit</name>
-        <order/>
+        <order>150</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_174719_needit.admin</roles>
+        <roles>x_174719_needit.needit_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-26 09:30:24</sys_created_on>
+        <sys_created_on>2018-01-12 11:28:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3f325f454f9bc700c2726b628110c7c0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Yellows</sys_name>
+        <sys_id>2cdfc3ae4f278300c2726b628110c77b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My NeedIt Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_174719_needit">2be057054f9bc700c2726b628110c799</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">2be057054f9bc700c2726b628110c799</sys_scope>
-        <sys_update_name>sys_app_module_3f325f454f9bc700c2726b628110c7c0</sys_update_name>
+        <sys_update_name>sys_app_module_2cdfc3ae4f278300c2726b628110c77b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-01-12 11:25:59</sys_updated_on>
+        <sys_updated_on>2018-01-12 11:28:28</sys_updated_on>
         <timeline_page/>
-        <title>Yellows</title>
+        <title>My NeedIt Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
