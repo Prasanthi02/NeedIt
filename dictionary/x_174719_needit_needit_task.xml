@@ -15,7 +15,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_string_1" type="string">
             <choice>
-                <element label="-TBDVALUE-Open" sequence="0"/>
+                <element label="Open" sequence="0" value="Open"/>
+                <element label="Progress" sequence="1" value="Progress"/>
+                <element label="Closed" sequence="2" value="Closed"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="u_string_8" type="string"/>
